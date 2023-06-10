@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nom_utilisateur_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom Utilisateur"/>
+
+        <TextView
+            android:id="@+id/cin_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CIN"/>
+
+        <TextView
+            android:id="@+id/titre_livre_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titre Livre"/>
+
+
+        <TextView
+            android:id="@+id/categorieTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="categorie"/>
+
+        <TextView
+            android:id="@+id/date_demande_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Demande"/>
+
+        <TextView
+            android:id="@+id/status_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"/>
+
+        <Button
+            android:id="@+id/recupere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Recupere"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

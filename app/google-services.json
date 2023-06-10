@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "31089629931",
+    "project_id": "g-bibliotheque",
+    "storage_bucket": "g-bibliotheque.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31089629931:android:faee0ac3d62c685afb7cae",
+        "android_client_info": {
+          "package_name": "com.example.g_bibliotheque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31089629931-qvguih3o7b5qm1t4h951hp7va5r2903c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi7F812zIK9rfvIkVzkkWZ8xjhVyCTvag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31089629931-qvguih3o7b5qm1t4h951hp7va5r2903c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

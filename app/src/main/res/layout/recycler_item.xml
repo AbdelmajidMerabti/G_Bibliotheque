@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recRelative"
+    android:background="@color/white"
+    android:elevation="2dp"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/recTitre"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:paddingStart="16dp"
+        android:text="Titre"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <TextView
+        android:id="@+id/recDescription"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recTitre"
+        android:layout_toEndOf="@+id/imageView"
+        android:paddingStart="16dp"
+        android:text="Sous-titre"
+        android:textAppearance="?attr/textAppearanceSubtitle1" />
+
+    <TextView
+        android:id="@+id/recCategorie"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recDescription"
+        android:layout_toEndOf="@+id/imageView"
+        android:paddingStart="16dp"
+        android:text="Description"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <TextView
+        android:id="@+id/recQte"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recCategorie"
+        android:layout_toEndOf="@+id/imageView"
+        android:paddingStart="16dp"
+        android:text="Qte"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+
+
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEdit"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:text="Date"
+        android:textAppearance="?attr/textAppearanceCaption" />
+
+    <ImageView
+        android:id="@+id/btnDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDelete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_baseline_folder_24"
+        android:text="Date"
+        android:textAppearance="?attr/textAppearanceCaption" />
+
+</RelativeLayout>
